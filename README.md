@@ -1,4 +1,5 @@
 # Codyssey-e1-3: Mini NPU simulator
+## 프로젝트 개요
 컴퓨터가 이미지를 인식하는 기본 원리인 필터링 및 MAC(Multiply-Accumulate) 연산을 하여 입력된 패턴이 Cross 필터와 X 필터 중 어떤 필터와 더 유사한지 판정하는 Mini NPU Simulator Python Console Application입니다.
 
 ----
@@ -6,11 +7,11 @@
 ## 1. 통합 리포트 및 분석
 
 ### 1.1 실행 방법
-이 프로그램은 패키지 구조로 구현되어 있으므로, 프로젝트 루트 디렉토리에서 아래 명령어로 모듈 실행해야 정상적으로 동작합니다.
+이 프로그램은 프로젝트 루트 디렉토리에서 아래 명령어로 실행할 수 있습니다.
 
 ```bash
 # 1. 시뮬레이터 실행
-python3 -m mini_NPU_simulator.main
+python3 main.py
 
 # 2. 실행 후 원하는 모드 번호를 콘솔에 입력합니다:
 # '1'을 누르면 3x3 사용자 직접 입력 모드 실행
